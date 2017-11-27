@@ -3,11 +3,12 @@
   "examples": "classic",
   "navigation": "react-navigation",
   "generators": {
-    "component": "ignite-ir-boilerplate",
-    "container": "ignite-ir-boilerplate",
-    "listview": "ignite-ir-boilerplate",
-    "redux": "ignite-ir-boilerplate",
-    "saga": "ignite-ir-boilerplate",
-    "screen": "ignite-ir-boilerplate"
+    "component": "ignite-expo",
+    "container": "ignite-expo",
+    "listview": "ignite-expo",
+    "redux": "ignite-expo",
+    "saga": "ignite-expo",
+    "screen": "ignite-expo",
+    "list": "ignite-expo"
   }
 }

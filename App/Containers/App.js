@@ -1,6 +1,6 @@
 import '../Config'
 import DebugConfig from '../Config/DebugConfig'
-import React, { Component } from 'react'
+import React, { Component, Text} from 'react'
 import { Provider } from 'react-redux'
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
@@ -21,7 +21,7 @@ class App extends Component {
   render () {
     return (
       <Provider store={store}>
-        <RootContainer />
+         <RootContainer /> 
       </Provider>
     )
   }

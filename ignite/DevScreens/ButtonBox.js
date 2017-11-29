@@ -11,6 +11,10 @@ export default class ButtonBox extends React.Component {
     text: PropTypes.string
   }
 
+  CompentWillMount() {
+    console.log( '1122', this.props.style);
+  }
+
   render () {
     return (
       <TouchableOpacity style={[styles.container, this.props.style]} onPress={this.props.onPress}>

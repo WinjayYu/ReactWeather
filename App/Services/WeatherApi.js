@@ -9,7 +9,6 @@ const WEATHER_NO_ARG_URL = 'https://weixin.jirengu.com/weather';    // 无参数
 export default function getWeatherData(){
   return new Promise((resolve, reject) => {
     fetch(WEATHER_NO_ARG_URL).then(res => {
-      console.log(999 + 'res');
       if(res) {
         resolve(res.json());
       } else {
